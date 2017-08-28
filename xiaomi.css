@@ -1,12 +1,67 @@
-#headimg{
+#headimg {
 	height: 120px;
 }
-#headimg img{
+#headimg img {
 	width: 100%;
 	height: 120px;
 }
-#nav{
+
+#navfull {
 	width: 100%;
 	height: 40px;
 	background: #333333;
+}
+
+#nav {
+	width: 1226px;
+	height: 40px;
+	width: 1226px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.navlf, .navrt {
+	line-height: 40px;
+}
+.navlf a, .navrt a {
+	color: #B0B0B0;
+	font-size: 12px;
+	padding: 8px 8px 8px 0px;
+}
+.navlf a:hover, .navrt a:hover {
+	color: #E5D7E8;
+}
+.navlf span, .navrt span {
+	padding-right: 4px;
+	color: #424242;
+}
+#shopcar {
+	line-height: 40px;
+	cursor: pointer;
+	position: relative;
+}
+#shopcar:hover {
+	background: #fff;
+}
+#shopcar img {
+	vertical-align: middle;
+	padding-right: 5px;
+
+}
+#shopcar p {
+	color: #B0B0B0;
+}
+#shopcar p:hover {
+	color: #DD282F;
+}
+.shop-show {
+	position: absolute;
+	width: 320px;
+	height: 100px;
+	/*box-shadow: h-shadow v-shadow blur spread color inset;*/
+	box-shadow: 1px 1px 10px -2px grey;
+	top: 160px;
+	right: 60px;
+	text-align: center;
+	line-height: 100px;
+	color: #918B8B;
 }
