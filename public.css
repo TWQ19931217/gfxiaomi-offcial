@@ -1,0 +1,15 @@
+/*左浮动样式*/
+.lf {
+	float: left;
+}
+/*右浮动样式*/
+.rt {
+	float: right;
+}
+/*清除浮动样式*/
+.clear:after {
+	content: '';
+	height: 0;
+	display: black;
+	clear: both;
+}
